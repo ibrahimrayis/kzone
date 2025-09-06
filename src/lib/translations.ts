@@ -15,7 +15,7 @@ export const translations = {
     exploreSolutions: "Explore Solutions",
 
     // Contact Info
-    email: "info@k-zone.lite",
+    email: "info@k-zone.live",
     phone1: "+90 544 922 2499",
     phone2: "+249 110 000 016",
 
@@ -84,7 +84,7 @@ export const translations = {
     exploreSolutions: "استكشف الحلول",
 
     // Contact Info
-    email: "info@k-zone.lite",
+    email: "info@k-zone.live",
     phone1: "+90 544 922 2499",
     phone2: "+249 110 000 016",
 
@@ -153,7 +153,7 @@ export const translations = {
     exploreSolutions: "Çözümleri Keşfet",
 
     // Contact Info
-    email: "info@k-zone.lite",
+    email: "info@k-zone.live",
     phone1: "+90 544 922 2499",
     phone2: "+249 110 000 016",
 
