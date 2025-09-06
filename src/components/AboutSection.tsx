@@ -43,15 +43,18 @@ export const AboutSection: React.FC = () => {
             </div>
           </div>
 
-          {/* Image */}
+          {/* Video */}
           <div className={`${isRTL ? 'lg:order-1' : 'lg:order-2'}`}>
             <div className="relative">
-              <img
-                src={rooftopSolar}
-                alt="Solar installation"
-                className="w-full h-[500px] object-cover rounded-2xl shadow-strong"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-2xl"></div>
+              <div className="relative w-full h-[400px] rounded-2xl overflow-hidden shadow-strong">
+                <iframe
+                  src="https://www.youtube.com/embed/zwsAf0do-yo"
+                  title="K-Zone Solar Solutions Video"
+                  className="w-full h-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
               
               {/* Floating Stats Card */}
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-strong">
