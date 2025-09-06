@@ -16,7 +16,7 @@ interface TemperatureData {
 
 const SudanHeatMap: React.FC = () => {
   const { t } = useTranslation();
-  const [viewMode, setViewMode] = useState<'temperature' | 'solar'>('temperature');
+  const [viewMode, setViewMode] = useState<'temperature' | 'solar'>('solar');
   const [selectedCity, setSelectedCity] = useState<TemperatureData | null>(null);
   const [isAnimating, setIsAnimating] = useState(false);
   const [lastUpdate, setLastUpdate] = useState(new Date());
